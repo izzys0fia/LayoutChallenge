@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; 
+}
+
+header {
+    background-image: url('stars.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    text-align: center;
+    padding: 35px 0;
+    color: white;
+}
+
+h1 {
+    font-size: 2.7em; 
+	margin-bottom: 40px;
+}
+
+#sub-text {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.nav {
+    width: 25%;
+    background-color: teal;
+    padding: 20px;
+    color: yellow;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sidebar {
+    background: teal;
+    width: 25%;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+	margin-top: 20px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+	margin-top: 40px;
+}
+
+
+.content {
+    width: 75%;
+    background-color: #EBEAEB;
+    padding: 20px;
+	padding-bottom: 30px;
+}
+
+.content h1 {
+    margin-bottom: 20px; 
+	margin-top: 15px; 
+}
+
+
+.info {
+    width: 100%; 
+    margin: 0 auto; 
+    background: lightblue;
+    padding: 20px;
+    display: table;
+}
+
+.column {
+    display: table-cell; 
+    width: 33.33%; 
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
